@@ -29,9 +29,9 @@ app.wss = new Server({
   server: app.server
 });
 
-const wwwPath = path.join(__dirname, "www");
+//const wwwPath = path.join(__dirname, "www");
 
-app.use("/", express.static(wwwPath));
+app.use("/", express.static("app/build"));
 
 // Connection to DB
 
