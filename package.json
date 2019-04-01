@@ -10,6 +10,9 @@
     "prestart": "npm run -s build",
     "test": "eslint src"
   },
+  "engines": {
+    "node": "8.9.3"
+  },
   "eslintConfig": {
     "extends": "eslint:recommended",
     "parserOptions": {
